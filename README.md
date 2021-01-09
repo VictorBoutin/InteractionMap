@@ -14,3 +14,10 @@ This python repository is organized as follow :
     - The notebooks with a name sarting with "3" are related to the generation of the supplementary materials figure for all tested databases. The notebook called "3-CFD_Fig7_and_SD" is also used to generate the Fig 7 of the paper.
     - The notebook called "4-Fig5.ipynb" is used to generate the figure 5 from the paper. Note that we have conducted this analysis only on the STL database
     - The notebook called "5-Table2-SurfaceCoverage" is used to generate the Table2 of the paper.
+
+
+## Overview of the main results 
+
+### Top-down connection allows a mitigation of the prediction error (Fig 2).
+Results on CFD database when varying the first layer sparsity (see arXiv paper for other database and also the effect of varying the second layer sparsity):
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig2-a-ii.png "Prediction breakdown when varying the first layer sparsity")
