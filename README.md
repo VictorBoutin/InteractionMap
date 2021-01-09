@@ -21,9 +21,23 @@ This python repository is organized as follow :
 
 ### Architecture of a 2-layered SDPC model (Fig 1).
 
-![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig1/Fig1.png "SDPC Architecture")
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig1/Fig1_tex.png "SDPC Architecture")
 
 ###  Results of training SDPC on the natural images and the face database (Fig 2).
 
-![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig2/Fig2.png "SDPC features and reconstruction")
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig2/Fig2_tex.png "SDPC features and reconstruction")
 A) Randomly selected input images from the STL database. B) and F) : 16 randomly selected first-layer Receptive Fields. C) Input reconstruction made by the first layer. D) and G) 32 randomly selected second layer Receptive Fields. E) Input reconstruction made by the second layer.
+
+
+###  Example of an association field (Fig 5).
+
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig5/Fig5_tex.png "SDPC features and reconstruction")
+A) Randomly selected input images from the STL database. B) and F) : 16 randomly selected first-layer Receptive Fields. C) Input reconstruction made by the first layer. D) and G) 32 randomly selected second layer Receptive Fields. E) Input reconstruction made by the second layer.
+
+
+### Example of an association Fields colored with relative feedback (Fig 7).
+
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig7/Fig7_tex.png "SDPC features and reconstruction")
+A) Randomly selected input images from the STL database. B) and F) : 16 randomly selected first-layer Receptive Fields. C) Input reconstruction made by the first layer. D) and G) 32 randomly selected second layer Receptive Fields. E) Input reconstruction made by the second layer.
+
+
