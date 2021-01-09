@@ -20,9 +20,10 @@ This python repository is organized as follow :
 ## Overview of the main results 
 
 ### Architecture of a 2-layered SDPC model (Fig 1).
-Results on CFD database when varying the first layer sparsity (see arXiv paper for other database and also the effect of varying the second layer sparsity):
-![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig1/Fig1.png "Prediction breakdown when varying the first layer sparsity")
 
-###  Resutls of training SDPC on the natural images and the face database (Fig 2).
-Results on CFD database when varying the first layer sparsity (see arXiv paper for other database and also the effect of varying the second layer sparsity):
-![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig2/Fig2.png "Prediction breakdown when varying the first layer sparsity")
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig1/Fig1.png "SDPC Architecture")
+
+###  Results of training SDPC on the natural images and the face database (Fig 2).
+
+![Prediction Breakdown on CFD when varying lbda1](/Savings/Fig/Fig2/Fig2.png "SDPC features and reconstruction")
+A) Randomly selected input images from the STL database. B) and F) : 16 randomly selected first-layer Receptive Fields. C) Input reconstruction made by the first layer. D) and G) 32 randomly selected second layer Receptive Fields. E) Input reconstruction made by the second layer.
