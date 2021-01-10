@@ -40,4 +40,9 @@ Example of a 9x9 interaction map of a V1 area centered on neurons strongly respo
 ![Colored Association Fields](/Savings/Fig/Fig7/Fig7_tex.png "Colored Association Field")
 Example of a 9x9 interaction map of a V1 area centered on neurons strongly responding to a central preferred orientation of 45 deg, and colored with the relative response w.r.t. no feedback. The feedback strength is set to 1 and the SDPC is trained on natural images. The color scale being saturated toward both maximum and minimum activity, all the activities above 1.3 or below 0.5 have the same color, respectively dark green or purple.
 
+### Effect of the feedback strenght on the denoising abilities on natural images(Fig 10) (see Notebook 5).
+
+![Denoising abilities](/Savings/Fig/Fig10/Fig10_tex.png "Denoising abilities")
+Effect of the feedback strength on noisy images from natural images database. (A) In the left column, one image is corrupted by Gaussian noise of mean 0 and a standard deviation of 2. The central column exhibits the representations made by the first layer, and the right-hand column the representations made by the second layer. Within each of these blocks, the feedback strength is equal to 0 in the top line and 4 in the bottom line. (B) We plot the structural similarity index (higher is better) between original images and their representation by the first layer of the SDPC. (C) We plot the structural similarity index between original images and their representation by the second layer of the SDPC. All curves represent the median structural similarity index over 1200 samples of the testing set and present a logarithmic scale on the y-axis. The color code corresponds to the feedback strength, from grey for kFB to darker blue for higher feedback strength. The black line is the baseline, it is the structural similarity index between the noisy and original input images.
+
 
