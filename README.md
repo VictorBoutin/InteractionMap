@@ -23,19 +23,19 @@ This python repository is organized as follow :
 
 ![Architecture of the SDPC](/Savings/Fig/Fig1/Fig1_tex.png "SDPC Architecture")
 
-###  Results of training SDPC on the natural images and the face database (Fig 2).
+###  Results of training SDPC on the natural images and the face database (Fig 2) (see Notebook 2).
 
 ![Training results](/Savings/Fig/Fig2/Fig2_tex.png "SDPC features and reconstruction")
 A) Randomly selected input images from the STL database. B) and F) : 16 randomly selected first-layer Receptive Fields. C) Input reconstruction made by the first layer. D) and G) 32 randomly selected second layer Receptive Fields. E) Input reconstruction made by the second layer.
 
 
-###  Example of an association field (Fig 5).
+###  Example of an association field (Fig 5)(see Notebook 4).
 
 ![Association Fields](/Savings/Fig/Fig5/Fig5_tex.png "Association Fields")
 Example of a 9x9 interaction map of a V1 area centered on neurons strongly responding to a central preferred orientation of 30 deg. (A) Without feedback. (B) With a feedback strength equal to 1.  These interaction maps are obtained when the SDPC is trained on natural images. The color scale being saturated toward both maximum and minimum activity, all the activities above 0.8 or below 0.3 have the same color, respectively dark or white.
 
 
-### Example of an association Fields colored with relative feedback (Fig 7).
+### Example of an association Fields colored with relative feedback (Fig 7) (see Notebook 4).
 
 ![Colored Association Fields](/Savings/Fig/Fig7/Fig7_tex.png "Colored Association Field")
 Example of a 9x9 interaction map of a V1 area centered on neurons strongly responding to a central preferred orientation of 45 deg, and colored with the relative response w.r.t. no feedback. The feedback strength is set to 1 and the SDPC is trained on natural images. The color scale being saturated toward both maximum and minimum activity, all the activities above 1.3 or below 0.5 have the same color, respectively dark green or purple.
